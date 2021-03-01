@@ -1,0 +1,16 @@
+{
+  "printWidth": 80,
+  "trailingComma": "all",
+  "arrowParens": "avoid",
+  "singleQuote": false,
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}

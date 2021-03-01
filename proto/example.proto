@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Purchase {
+  string productId = 1;
+  string userId = 2;
+  float price = 3;
+  // Unix time
+  uint32 timestamp = 4;
+}

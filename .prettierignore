@@ -1,0 +1,4 @@
+.prettierrc
+tsconfig.json
+node_modules/
+generated/
