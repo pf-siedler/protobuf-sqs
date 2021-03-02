@@ -1,9 +1,13 @@
 syntax = "proto3";
 
+message Item {
+  string product_id = 1;
+  float price = 2;
+}
+
 message Purchase {
-  string productId = 1;
-  string userId = 2;
-  float price = 3;
+  string user_id = 1;
+  repeated Item items = 2;
   // Unix time
-  uint32 timestamp = 4;
+  uint32 timestamp = 3;
 }
